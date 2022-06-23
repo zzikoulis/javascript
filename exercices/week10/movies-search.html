@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./movies-search.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="./movies-search.js"></script>
+    <title>Αναζήτηση Poster Ταινιών</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="search-div">
+
+            <h1 class="search-header">Αναζήτηση Ταινιών</h1>
+
+            <input type="text" id="searchInput" class="search-box rounded" placeholder="Πληκτρολογήστε έναν τίτλο" autofocus>
+
+        </div>
+
+        <div class="result-div">
+
+            <img src="" class="search-img hidden" alt="Δεν μπορεί να ανακτηθεί το poster">
+            <span class="not-poster hidden">Ο τίτλος βρέθηκε αλλά δεν υπάρχουν σχετικά posters</span>
+            <span class="not-found hidden">Δεν βρέθηκαν αποτελέσματα για τον παραπάνω τίτλο</span>
+
+        </div>
+
+    </div>
+</body>
+</html>
